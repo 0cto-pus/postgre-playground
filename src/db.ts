@@ -1,6 +1,7 @@
 import { Pool } from 'pg';
 import dotEnv from 'dotenv';
 dotEnv.config();
+
 const pool = new Pool({
   user: 'myuser',
   host: 'localhost',
